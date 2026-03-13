@@ -10861,5 +10861,59 @@ ul.children {
     color: #182B54; }
     .footer.style-4 .te-footer-widget .te_widget_latest_post ul li .te-latest-post-desc .te-latest-post-title a:hover {
       color: #ff7f00; }
-
+.google-reviews{
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    color: inherit;
+    text-decoration: inherit;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 9999px;
+    background-color: #fffffff2;
+    gap: .625rem;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+    padding-left: .75rem;
+    padding-right: 1rem;
+}
+.reviews-container {
+    color: rgb(17 24 39 / var(--tw-text-opacity, 1));
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+.google-icon{
+    line-height: inherit;
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    height: 1.75rem;
+    width: 1.75rem;
+}
+.google-stars{
+    font-family: Open Sans Variable,Open Sans,system-ui,sans-serif;
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.google-stars svg{
+    width: 1.25rem;
+    height: 1.25rem;
+    fill:    #facc15;
+}
 /*# sourceMappingURL=style.css.map */
