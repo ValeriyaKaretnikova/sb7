@@ -10885,7 +10885,6 @@ ul.children {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    gap: 1.5rem;
     margin: 2rem 0;
 }
 .google-icon{
@@ -10915,5 +10914,12 @@ ul.children {
     width: 1.25rem;
     height: 1.25rem;
     fill:    #facc15;
+}
+/* Mobile centering for reviews-container */
+@media (max-width: 768px) {
+    .reviews-container {
+        justify-content: center;
+        text-align: center;
+    }
 }
 /*# sourceMappingURL=style.css.map */
