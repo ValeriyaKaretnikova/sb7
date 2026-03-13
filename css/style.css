@@ -10887,6 +10887,9 @@ ul.children {
     align-items: center;
     margin: 2rem 0;
 }
+.reviews-container :hover {
+    color: rgb(17 24 39 / var(--tw-text-opacity, 1));
+}
 .google-icon{
     line-height: inherit;
     box-sizing: border-box;
@@ -10921,5 +10924,14 @@ ul.children {
         justify-content: center;
         text-align: center;
     }
+}
+/* Read More/Read Less links */
+.read-more, .read-less {
+    color: #ff7f00;
+    text-decoration: none;
+    font-weight: bold;
+}
+.read-more:hover, .read-less:hover {
+    text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
