@@ -5615,6 +5615,20 @@ body.admin-bar .header-menu-area.sticky_menu {
     width: 55px;
     float: left;
     overflow: hidden; }
+  .single-testimonial .client-initials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background: #ffffff;
+    font-size: 27px;
+    font-weight: 700;
+    color: #ff7f00;
+    flex-shrink: 0;
+  }
   .single-testimonial .client-info .name {
     font-family: "Jost", sans-serif;
     font-size: 27px;
