@@ -2710,6 +2710,12 @@ body.admin-bar .header-menu-area.sticky_menu {
           width: 170px;
           -webkit-transition: all 0.5s ease-out;
           transition: all 0.5s ease-out; }
+          @media only screen and (max-width: 768px){
+            .te-header-menu-area.te-sticky_menu .te-logo {
+      height: 50px; }
+    .te-header-menu-area.te-sticky_menu .te-logo img {
+      width: 100px; 
+    } }
     .te-header-menu-area.te-sticky_menu .te-main-menu ul li.te-active > a:after {
       bottom: 20px; }
     .te-header-menu-area.te-sticky_menu .te-main-menu ul li a {
@@ -2753,7 +2759,7 @@ body.admin-bar .header-menu-area.sticky_menu {
         height: 100px; } }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       .te-header-menu-area .te-logo {
-        height: 80px; } }
+        height: 50px; } }
     .te-header-menu-area .te-logo .te-standard-logo img {
       -webkit-transition: all 0.5s ease-out;
       transition: all 0.5s ease-out; }
@@ -2761,7 +2767,7 @@ body.admin-bar .header-menu-area.sticky_menu {
       display: none; }
       @media only screen and (max-width: 767px) {
         .te-header-menu-area .te-logo .te-sticky-logo {
-          width: 170px; } }
+          width: 100px; } }
       .te-header-menu-area .te-logo .te-sticky-logo img {
         -webkit-transition: all 0.5s ease-out;
         transition: all 0.5s ease-out; }
