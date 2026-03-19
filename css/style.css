@@ -2687,7 +2687,7 @@ body.admin-bar .header-menu-area.sticky_menu {
         .phone-link {
           font-weight: 600 ;
       
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 389px) {
   font-size: small;
   
 }
