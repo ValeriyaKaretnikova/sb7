@@ -2686,7 +2686,7 @@ body.admin-bar .header-menu-area.sticky_menu {
         background-color: #ff7f00; }
         .phone-link {
           font-weight: 600 ;
-          display: inline;
+      
 @media only screen and (max-width: 760px) {
   font-size: small;
   
@@ -2801,6 +2801,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end; }
+
+          .mean-nav {
+            margin-top: 0 !important;
+          }
 
 .te-main-menu ul {
   margin: 0;
@@ -3425,7 +3429,7 @@ body.admin-bar .header-menu-area.sticky_menu {
       width: 350px; } }
   .te-menu-sidebar-area .te-menu-sidebar-logo {
     display: inline-block;
-    width: 180px; }
+    width: 130px; }
   .te-menu-sidebar-area .te-menu-sidebar-wrapper {
     position: relative;
     padding: 40px; }
@@ -6888,7 +6892,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding-top: 240px;
   padding-bottom: 150px;
   position: relative;
-  z-index: 2; }
+  z-index: 999; }
   @media (max-width: 991px) {
     .page-breadcrumb-area {
       padding: 100px 0; } }
